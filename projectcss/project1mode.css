@@ -1,0 +1,461 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body #wrapper {
+  padding: 10px 0px;
+  display: grid;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgb(250, 250, 250);
+  grid-template: minmax(100px, auto) 1fr minmax(100px, auto)/1fr;
+  grid-template-areas: "header" "main17" "main" "footer";
+}
+body #wrapper .menu3 {
+  display: none;
+  top: 8px;
+  grid-area: menu;
+  margin-left: 2px;
+  z-index: 80;
+  position: fixed;
+  color: aqua;
+  width: 230px;
+  height: 295px;
+  background-color: rgb(4, 4, 4);
+  border-bottom: grey 2px solid;
+  border-right: grey 2px solid;
+  border-radius: 0 0 5px 5px;
+}
+body #wrapper .menu3 .icon {
+  width: 40px;
+  height: 38px;
+  background: url(../projectimg/cres1.jpg);
+  margin: 0 0 0 18px;
+}
+body #wrapper .menu3 .icon1 {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+body #wrapper .menu3 .icon3 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+body #wrapper .menu3 .icon2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+body #wrapper .menu3 .icon4 {
+  text-align: center;
+}
+body #wrapper .header_link {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  font-size: 20px;
+  color: rgb(234, 234, 234);
+}
+body #wrapper .menu31 {
+  margin: 37px 0 0 233px;
+  grid-area: menu1;
+  z-index: 80;
+  position: fixed;
+  width: 230px;
+  height: 174px;
+  background-color: rgb(4, 4, 4);
+  border: grey 2px solid;
+  border-radius: 0 0 5px 0px;
+  display: none;
+}
+body #wrapper .menu31 .icon11 {
+  text-align: center;
+  padding-top: 10px;
+}
+body #wrapper .menu31 .icon111 {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+body #wrapper .menu31 .icon33 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+body #wrapper .menu31 .icon22 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+body #wrapper .menu31 .icon44 {
+  text-align: center;
+}
+body #wrapper .menu32 {
+  margin: 71.5px 0 0 233px;
+  grid-area: menu1;
+  z-index: 80;
+  position: fixed;
+  width: 230px;
+  height: 174px;
+  background-color: rgb(4, 4, 4);
+  border: grey 2px solid;
+  border-radius: 0 0 5px 0px;
+  display: none;
+}
+body #wrapper .menu32 .icon21 {
+  text-align: center;
+  padding-top: 10px;
+}
+body #wrapper .menu32 .icon211 {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+body #wrapper .menu32 .icon333 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+body #wrapper .menu32 .icon222 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+body #wrapper .menu32 .icon444 {
+  text-align: center;
+}
+body #wrapper header {
+  z-index: 89;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 7;
+  position: sticky;
+  top: 0px;
+  grid-area: header;
+  width: 97%;
+  margin: -10px auto 0px auto;
+  background-color: black;
+  height: 60px;
+  color: rgb(234, 234, 234);
+}
+body #wrapper header .header1 {
+  padding: 0 20px;
+  width: 170px;
+}
+body #wrapper header .header_menu1 {
+  height: 39px;
+  width: 57px;
+  background: url(../projectimg/menu1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+body #wrapper header .header_name {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(234, 234, 234);
+}
+body #wrapper header .header_list {
+  list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+}
+body #wrapper main .log {
+  width: 99.7%;
+  margin: auto;
+  height: 600px;
+  background: url(../projectimg/luis1.webp) no-repeat;
+  background-size: 100% 100%;
+}
+body #wrapper main .log .log0 {
+  width: 100%;
+  height: 600px;
+}
+body #wrapper main .loc1 {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  border: 1px solid black;
+  background: url(../projectimg/mode11.jpg) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body #wrapper main .loc1 .st1 {
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  rotate: 180deg;
+  position: absolute;
+  margin-left: 10px;
+}
+body #wrapper main .loc1 .st2 {
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  position: absolute;
+  margin-left: 10px;
+}
+body #wrapper main .loc2 {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  border: 1px solid black;
+  background: url(../projectimg/mode21.webp) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body #wrapper main .loc2 .st1 {
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  rotate: 180deg;
+  position: absolute;
+  margin-left: 10px;
+}
+body #wrapper main .loc2 .st2 {
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  position: absolute;
+  margin-left: 10px;
+}
+body #wrapper main .loc3 {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  border: 1px solid black;
+  background: url(../projectimg/mode31.webp) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body #wrapper main .loc3 .st1 {
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  rotate: 180deg;
+  position: absolute;
+  margin-left: 10px;
+}
+body #wrapper main .loc3 .st2 {
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  position: absolute;
+  margin-left: 10px;
+}
+@media (max-width: 1200px) {
+  body #wrapper main .log {
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    height: 550px;
+  }
+}
+@media (max-width: 1100px) {
+  body #wrapper main .log {
+    width: 104%;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    height: 450px;
+  }
+  body #wrapper main .loc1 {
+    width: 100%;
+  }
+  body #wrapper main .loc1 .st1 {
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    rotate: 180deg;
+    position: absolute;
+    margin-left: 10px;
+  }
+  body #wrapper main .loc1 .st2 {
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    position: absolute;
+    margin-left: 10px;
+  }
+  body #wrapper main .loc2 {
+    width: 100%;
+  }
+  body #wrapper main .loc2 .st1 {
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    rotate: 180deg;
+    position: absolute;
+    margin-left: 10px;
+  }
+  body #wrapper main .loc2 .st2 {
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    position: absolute;
+    margin-left: 10px;
+  }
+  body #wrapper main .loc3 {
+    width: 100%;
+  }
+  body #wrapper main .loc3 .st1 {
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    rotate: 180deg;
+    position: absolute;
+    margin-left: 10px;
+  }
+  body #wrapper main .loc3 .st2 {
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 900px) {
+  body #wrapper main .log {
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+}
+@media (max-width: 800px) {
+  body #wrapper header .header_name {
+    text-align: center;
+  }
+  body #wrapper header .header_menu1 {
+    width: 65px;
+  }
+  body #wrapper header .header1 {
+    width: 40%;
+  }
+  body #wrapper main .log {
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    height: 350px;
+  }
+  body #wrapper main .loc1 {
+    height: 600px;
+  }
+  body #wrapper main .loc1 .st1 {
+    margin-top: 245px;
+  }
+  body #wrapper main .loc1 .st2 {
+    margin-top: 245px;
+  }
+  body #wrapper main .loc2 {
+    height: 600px;
+  }
+  body #wrapper main .loc2 .st1 {
+    margin-top: 245px;
+  }
+  body #wrapper main .loc2 .st2 {
+    margin-top: 245px;
+  }
+  body #wrapper main .loc3 {
+    height: 600px;
+  }
+  body #wrapper main .loc3 .st1 {
+    margin-top: 245px;
+  }
+  body #wrapper main .loc3 .st2 {
+    margin-top: 245px;
+  }
+}
+@media (max-width: 630px) {
+  body #wrapper header {
+    height: 75px;
+  }
+}
+@media (max-width: 600px) {
+  body #wrapper main .log {
+    width: 104.8%;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    height: 300px;
+  }
+  body #wrapper main .loc1 {
+    height: 500px;
+  }
+  body #wrapper main .loc1 .st1 {
+    margin-top: 225px;
+  }
+  body #wrapper main .loc1 .st2 {
+    margin-top: 225px;
+  }
+  body #wrapper main .loc2 {
+    height: 500px;
+  }
+  body #wrapper main .loc2 .st1 {
+    margin-top: 225px;
+  }
+  body #wrapper main .loc2 .st2 {
+    margin-top: 225px;
+  }
+  body #wrapper main .loc3 {
+    height: 500px;
+  }
+  body #wrapper main .loc3 .st1 {
+    margin-top: 225px;
+  }
+  body #wrapper main .loc3 .st2 {
+    margin-top: 225px;
+  }
+}
+@media (max-width: 500px) {
+  body #wrapper main .log {
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    height: 240px;
+  }
+  body #wrapper main .loc1 {
+    height: 400px;
+  }
+  body #wrapper main .loc1 .st1 {
+    margin-top: 165px;
+  }
+  body #wrapper main .loc1 .st2 {
+    margin-top: 165px;
+  }
+  body #wrapper main .loc2 {
+    height: 400px;
+  }
+  body #wrapper main .loc2 .st1 {
+    margin-top: 165px;
+  }
+  body #wrapper main .loc2 .st2 {
+    margin-top: 165px;
+  }
+  body #wrapper main .loc3 {
+    height: 400px;
+  }
+  body #wrapper main .loc3 .st1 {
+    margin-top: 165px;
+  }
+  body #wrapper main .loc3 .st2 {
+    margin-top: 165px;
+  }
+}
+body #wrapper footer {
+  height: 80px;
+  color: rgb(234, 234, 234);
+  background-color: black;
+  grid-area: footer;
+  width: 99%;
+  padding: 10px;
+}
+@media (max-width: 1000px) {
+  body #wrapper footer {
+    width: 100%;
+  }
+}/*# sourceMappingURL=project1mode.css.map */

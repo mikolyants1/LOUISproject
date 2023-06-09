@@ -1,0 +1,395 @@
+body {
+  background-color: rgb(234, 234, 234);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  padding: 10px 0px;
+  display: grid;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgb(234, 234, 234);
+  grid-template: minmax(100px, auto) 1fr minmax(100px, auto)/1fr;
+  grid-template-areas: "header" "main17" "main" "footer";
+}
+#wrapper .menu3 {
+  display: none;
+  top: 8px;
+  grid-area: menu;
+  margin-left: 2px;
+  z-index: 80;
+  position: fixed;
+  color: aqua;
+  width: 230px;
+  height: 295px;
+  background-color: rgb(4, 4, 4);
+  border-bottom: grey 2px solid;
+  border-right: grey 2px solid;
+  border-radius: 0 0 5px 5px;
+}
+#wrapper .menu3 .icon {
+  width: 40px;
+  height: 38px;
+  background: url(../projectimg/cres1.jpg);
+  margin: 0 0 0 18px;
+}
+#wrapper .menu3 .icon1 {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+#wrapper .menu3 .icon3 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+#wrapper .menu3 .icon2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#wrapper .menu3 .icon4 {
+  text-align: center;
+}
+#wrapper .header_link {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  font-size: 20px;
+  color: rgb(234, 234, 234);
+}
+#wrapper .menu31 {
+  margin: 37px 0 0 233px;
+  grid-area: menu1;
+  z-index: 80;
+  position: fixed;
+  width: 230px;
+  height: 174px;
+  background-color: rgb(4, 4, 4);
+  border: grey 2px solid;
+  border-radius: 0 0 5px 0px;
+  display: none;
+}
+#wrapper .menu31 .icon11 {
+  text-align: center;
+  padding-top: 10px;
+}
+#wrapper .menu31 .icon111 {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+#wrapper .menu31 .icon33 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+#wrapper .menu31 .icon22 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#wrapper .menu31 .icon44 {
+  text-align: center;
+}
+#wrapper .menu32 {
+  margin: 71.5px 0 0 233px;
+  grid-area: menu1;
+  z-index: 80;
+  position: fixed;
+  width: 230px;
+  height: 174px;
+  background-color: rgb(4, 4, 4);
+  border: grey 2px solid;
+  display: none;
+  border-radius: 0 0 5px 0px;
+}
+#wrapper .menu32 .icon21 {
+  text-align: center;
+  padding-top: 10px;
+}
+#wrapper .menu32 .icon211 {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+#wrapper .menu32 .icon333 {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px grey solid;
+}
+#wrapper .menu32 .icon222 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#wrapper .menu32 .icon444 {
+  text-align: center;
+}
+#wrapper header {
+  z-index: 89;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 7;
+  position: sticky;
+  top: 0px;
+  grid-area: header;
+  width: 97%;
+  margin: -10px auto 30px auto;
+  background-color: black;
+  height: 60px;
+  color: rgb(234, 234, 234);
+}
+#wrapper header .header1 {
+  padding: 0 20px;
+  width: 170px;
+}
+#wrapper header .header_menu1 {
+  height: 39px;
+  width: 52px;
+  background: url(../projectimg/menu1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+#wrapper header .header_name {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(234, 234, 234);
+}
+#wrapper header .header_list {
+  list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+}
+#wrapper .main17 {
+  display: none;
+  margin-bottom: -90px;
+  margin-top: -30px;
+}
+#wrapper .main17 .main1 {
+  float: left;
+  width: 50%;
+  height: 600px;
+  background: url(../projectimg/ac14.webp) no-repeat;
+  background-size: 90% 90%;
+  background-color: rgb(230, 230, 230);
+}
+#wrapper .main17 .main2 {
+  background-color: rgb(234, 234, 234);
+  width: 50%;
+  height: 600px;
+  float: right;
+}
+#wrapper .main17 .main2 .page {
+  width: 50%;
+  height: 350px;
+  margin: 100px auto;
+}
+#wrapper .main17 .main2 .page .pname {
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 23px;
+  height: 80px;
+  margin: auto;
+  font-weight: bolder;
+}
+#wrapper .main17 .main2 .page .pcolor {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#wrapper .main17 .main2 .page .psize {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#wrapper .main17 .main2 .page .pprice {
+  font-size: 20px;
+  font-weight: bolder;
+  width: 100%;
+}
+#wrapper .main17 .main2 .page .b1 {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  background-color: rgb(234, 234, 234);
+  color: black;
+}
+#wrapper .main17 .main2 .page .b2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+}
+@media (max-width: 1200px) {
+  #wrapper .main17 .main1 {
+    height: 600px;
+  }
+  #wrapper .main17 .main2 {
+    height: 600px;
+  }
+}
+@media (max-width: 1100px) {
+  #wrapper .main17 .main1 {
+    height: 500px;
+  }
+  #wrapper .main17 .main2 {
+    height: 500px;
+  }
+  #wrapper .main17 .main2 .page {
+    margin: 100px auto;
+  }
+}
+@media (max-width: 1000px) {
+  #wrapper .main17 .main1 {
+    height: 450px;
+    background-repeat: no-repeat;
+  }
+  #wrapper .main17 .main2 {
+    height: 450px;
+  }
+}
+@media (max-width: 860px) {
+  #wrapper .main17 .main1 {
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 102%;
+    height: 680px;
+  }
+  #wrapper .main17 .main2 {
+    width: 100%;
+    height: 400px;
+  }
+  #wrapper .main17 .main2 .pname {
+    text-align: center;
+  }
+  #wrapper .main17 .main2 .page {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  #wrapper .main17 .main1 {
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 104%;
+  }
+}
+#wrapper main {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  display: grid;
+  margin-bottom: 100px;
+  grid-template-columns: 1fr/1fr/1fr/1fr/1fr/1fr;
+  grid-area: main;
+}
+#wrapper main .content_products1 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#wrapper main .content_products1 .products_items {
+  grid-auto-rows: 2fr;
+  display: grid;
+  row-gap: 60px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#wrapper main .content_products1 .products_items .products_item {
+  cursor: pointer;
+  opacity: 0;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template: auto 1fr minmax(10px, auto)/1fr;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-name: show;
+  animation-fill-mode: forwards;
+}
+#wrapper main .content_products1 .products_items .products_item .products_img {
+  width: 100%;
+  height: 100%;
+}
+#wrapper main .content_products1 .products_items .products_item .products_name {
+  text-decoration: none;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+#wrapper main .content_products1 .products_items .products_item .products_name .price1 {
+  color: gray;
+  text-decoration: line-through;
+}
+#wrapper main .content_products1 .products_items .products_item .products_button {
+  border-radius: 5px;
+  justify-content: center;
+  justify-self: center;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(234, 234, 234);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  line-height: 40px;
+  padding: 0 20px;
+}
+#wrapper main .content_products1 .products_items .products_item .products_button:hover {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  background-color: rgb(234, 234, 234);
+  padding: 0 18px;
+  line-height: 36px;
+}
+#wrapper footer {
+  height: 80px;
+  color: rgb(234, 234, 234);
+  background-color: black;
+  grid-area: footer;
+  width: 99%;
+  padding: 10px;
+}
+@media (max-width: 800px) {
+  #wrapper header .header_name {
+    text-align: center;
+  }
+  #wrapper header .header_menu1 {
+    width: 65px;
+  }
+  #wrapper header .header1 {
+    width: 40%;
+  }
+  #wrapper footer {
+    width: 100%;
+  }
+}
+@media (max-width: 630px) {
+  #wrapper header {
+    height: 75px;
+  }
+}/*# sourceMappingURL=project1acces.css.map */

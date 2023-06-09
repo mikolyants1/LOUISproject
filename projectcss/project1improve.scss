@@ -1,0 +1,391 @@
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #wrapper{
+     padding: 10px 0px;
+      display: grid;
+      position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgb(250, 250, 250);
+  grid-template: minmax(100px,auto) 1fr minmax(100px,auto)/ 1fr;
+  grid-template-areas: 
+  'header'
+  'main17'
+  'main'
+  'footer';
+  .menu3{
+    display: none;
+    top: 8px;
+      grid-area: menu;
+      margin-left: 2px;
+          z-index: 80;
+        position: fixed;
+          color: aqua;
+           width: 230px;
+           height: 295px;
+            background-color: rgb(4, 4, 4);
+            border-bottom: grey 2px solid;
+            border-right: grey 2px solid;
+            border-radius: 0 0 5px 5px;
+    .icon{
+      width: 40px;
+       height: 38px;
+        background: url(../projectimg/cres1.jpg);
+        margin: 0 0 0 18px
+  
+    }
+      .icon1{
+          border-top: 2px solid grey;
+          text-align: center;
+         padding-top: 10px;
+        margin-bottom: 10px; 
+  border-bottom:2px grey solid 
+      }
+      .icon3{
+         
+          text-align: center;
+        margin-bottom: 10px; 
+  border-bottom:2px grey solid 
+      }
+    .icon2{
+      text-align: center;
+      margin-bottom: 10px; 
+  
+    }
+    .icon4{
+      text-align: center;
+     
+    
+  
+    }
+  }
+  .header_link{
+    text-decoration: dotted;
+    font-size: 20px;
+    color:rgb(234, 234, 234);
+  }
+  .menu31{
+      margin:37px 0 0 233px ;
+      grid-area: menu1;
+      z-index: 80;
+      position: fixed;
+       width: 230px;
+       height: 174px;
+        background-color: rgb(4, 4, 4);
+        border: grey 2px solid;
+      display: none;
+      border-radius: 0 0 5px 0px;
+        .icon11{
+        
+          text-align: center;
+         padding-top: 10px;
+         
+  
+        }
+          .icon111{
+              border-top: 2px solid grey;
+              text-align: center;
+             padding-top: 10px;
+            margin-bottom: 10px; 
+      border-bottom:2px grey solid 
+          }
+          .icon33{
+             
+              text-align: center;
+            margin-bottom: 10px; 
+      border-bottom:2px grey solid 
+          }
+        .icon22{
+          text-align: center;
+          margin-bottom: 10px; 
+      
+        }
+        .icon44{
+          text-align: center;
+        }
+      }
+      .menu32{
+          margin:71.5px 0 0 233px ;
+          grid-area: menu1;
+          z-index: 80;
+          position: fixed;
+           width: 230px;
+           height: 174px;
+            background-color: rgb(4, 4, 4);
+            border: grey 2px solid;
+          display: none;
+          border-radius: 0 0 5px 0px;
+            .icon21{
+            
+              text-align: center;
+             padding-top: 10px;
+             
+      
+            }
+              .icon211{
+                  border-top: 2px solid grey;
+                  text-align: center;
+                 padding-top: 10px;
+                margin-bottom: 10px; 
+          border-bottom:2px grey solid 
+              }
+              .icon333{
+                 
+                  text-align: center;
+                margin-bottom: 10px; 
+          border-bottom:2px grey solid 
+              }
+            .icon222{
+              text-align: center;
+              margin-bottom: 10px; 
+          
+            }
+            .icon444{
+              text-align: center;
+             }
+          }
+  
+          header{    
+            z-index: 89;
+           padding: 20px;
+            display: flex;
+           justify-content: space-between;
+            z-index: 7;
+            position: sticky;
+            top: 0px;
+           grid-area: header;
+           width: 97%;
+           margin: -10px auto -10px auto;     
+            background-color: black;
+            height: 60px;
+            color:rgb(234, 234, 234);
+          .header1{      
+              padding:0 20px;  
+          width: 170px;
+           }
+           .header_menu1{
+            
+            height: 39px;
+            width: 52px;
+        background: url(../projectimg/menu1.jpg) no-repeat;
+        background-size: 100% 100%;
+           }
+            .header_name{     
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                width: 100%;
+                text-align: center;
+                font-size: 35px;
+                color:rgb(234, 234, 234) ;
+         }
+  
+  
+  .header_list{  
+      list-style-type: none;
+      display: grid;
+      grid-auto-flow: column;
+      justify-items: center;
+  } 
+  } 
+  @keyframes show {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  main{
+   margin-top: -10px;
+    width: 100%;
+    margin-bottom: -100px;
+ .link1{
+    position: relative;
+    width:100% ;
+    height: 700px;
+    background: url(../projectimg/improve1.webp);
+    background-size: 100% 100%;
+    .link111{
+      width: 100%;height: 90px;
+    }
+.link11{
+    font-size: 26px;
+    text-align: center;
+    margin:  auto;
+    width: 50%;
+    color: white;
+}
+
+ }
+ .link5{
+  position: relative;
+  width:100% ;
+  height: 700px;
+  background: url(../projectimg/improve5.webp);
+  background-size: 100% 100%;
+  .link555{
+    width: 100%;height: 140px;
+  }
+.link55{
+  font-size: 26px;
+  text-align: center;
+  margin:  auto;
+  width: 60%;
+  color: white;
+}
+
+}
+ .link2{
+    position: relative;
+    width:100% ;
+    height: 700px;
+    background: url(../projectimg/improve2.webp);
+    background-size: 100% 100%;
+    .link21{
+        font-size: 26px;
+        text-align: center;
+        margin:  auto;
+        width: 50%;
+        color: white;
+    }
+ }
+ .link3{
+    position: relative;
+    width:100% ;
+    height: 700px;
+    background: url(../projectimg/improve3.webp);
+    background-size: 100% 100%;
+    .link31{
+        font-size: 48px;
+        text-align: center;
+        margin:  auto;
+        width: 50%;
+        color: white;
+    }
+ }
+ .link4{
+    position: relative;
+    width:100% ;
+    height: 700px;
+    background: url(../projectimg/improve4.webp);
+    background-size: 100% 100%;
+    .link41{
+        font-size: 48px;
+        text-align: center;
+        margin:  auto;
+        width: 50%;
+        color: white;
+    }
+ }
+  }
+  @media (max-width:1242px) {
+    main{
+      width: 100.2%;
+      margin:-10px auto;
+      .link4{
+       
+    .link41{
+        width: 60%;
+        
+    }}
+    }
+    footer{
+      width: 100%;
+      margin-top: -100px;
+    }
+  }
+  @media (max-width:1100px) {
+    main{
+   width: 101.03%;
+        .link1{
+            height: 400px;
+            .link111{
+              width: 100%;height: 40px;
+            }
+.link11{
+    width: 100%;
+    font-size: 18px;
+}}
+.link5{
+  height: 400px;
+  .link555{
+    width: 100%;height: 40px;
+  }
+.link55{
+width: 100%;
+font-size: 18px;
+}}
+.link2{
+    height: 400px;
+.link21{
+    width: 100%;
+    font-size: 18px;
+}}
+.link3{
+    height: 400px;
+.link31{
+    width: 100%;
+    font-size: 26px;
+}}
+.link4{
+    height: 400px;
+.link41{
+    width: 100%;
+    font-size: 26px;
+}}
+    }
+
+  }
+ @media (max-width:800px) {
+  header{
+    .header_name{
+      
+      text-align: center;
+    }
+      .header_menu1{
+        width: 65px;
+      }
+      .header1{
+        width: 40%;
+      }
+  }
+ }
+ @media (max-width:800px) {
+ main{
+  width: 102%;
+ }
+ }  
+ 
+  
+  
+  footer{
+    height: 80px;
+    color:rgb(234, 234, 234);
+      background-color: black;
+      grid-area: footer;
+      width: 98.6%;
+      padding:10px ;
+     
+  }
+  @media (max-width:630px) {
+    header{
+      height: 75px;
+    }
+  }
+  @media (max-width:600px) {
+    main{
+     width: 104.5%;
+    }
+    footer{
+      width: 101%;
+    }
+    }  
+    @media (max-width:500px) {
+      main{
+       width: 105.1%;
+      }
+      
+      }  
+  }
