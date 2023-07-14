@@ -9,7 +9,7 @@ body{
   min-height: 100%;
   min-width: 100%;
   background-color: rgb(250, 250, 250);
-  grid-template: minmax(100px,auto) 1fr minmax(100px,auto)/ 1fr;
+  grid-template-rows: minmax(100px,auto) 1fr minmax(100px,auto);
   grid-template-areas: 
   'header'
   'main17'
@@ -146,7 +146,6 @@ body{
           }
   
           header{    
-            z-index: 89;
            padding: 20px;
             display: flex;
            justify-content: space-between;
@@ -178,14 +177,7 @@ body{
                 color:rgb(234, 234, 234) ;
            }
   
-  .header_list{
-      
-      list-style-type: none;
-      display: grid;
-      grid-auto-flow: column;
-      justify-items: center;
-  }
-  
+ 
   }
   @keyframes show {
    100%{
@@ -200,7 +192,6 @@ body{
     width: 40%;
    }
    .link2{
-    grid-auto-rows: 1fr;
 display: grid;
 overflow: hidden;
 row-gap: 10px;
@@ -216,7 +207,6 @@ grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
    }
    .link3{
     overflow: hidden;
-    grid-auto-rows: 1fr;
 display: grid;
 row-gap: 10px;
 column-gap: 10px;
@@ -236,10 +226,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   @media (max-width:1244px) {
     main{
       .link2{
-        grid-auto-rows: 1fr;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
     .im1{
         width:100%;
@@ -247,10 +233,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     }
        }
        .link3{
-        grid-auto-rows: 1fr;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
     .im{
         width:100%;
@@ -286,10 +268,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
          width: 100%;
         }
         .link2{
-          grid-auto-rows: 1fr;
-      display: grid;
-      row-gap: 10px;
-      column-gap: 10px;
       grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
       .im1{
           width:100%;
@@ -355,10 +333,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     
     main{
       .link2{
-        grid-auto-rows: 1fr;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
     .im1{
         width:100%;
@@ -387,10 +361,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   @media (max-width:600px) {
     main{
       .link2{
-        grid-auto-rows: 1fr;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
     .im1{
         width:100%;
@@ -398,10 +368,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     }
        }
        .link3{
-        grid-auto-rows: 1fr;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
     .im{
         width:100%;
@@ -417,10 +383,6 @@ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   @media (max-width:400px) {
     main{
       .link2{
-        grid-auto-rows: 1fr;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
     .im1{
         width:100%;

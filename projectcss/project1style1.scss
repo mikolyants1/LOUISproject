@@ -8,7 +8,7 @@ body{
         position: relative;
 height: 100%;
 width: 100%;
-grid-template: minmax(100px,auto) 1fr minmax(100px,auto)/ 1fr;
+grid-template-rows: minmax(100px,auto) 1fr minmax(100px,auto);
 grid-template-areas: 
 'header'
 'main17'
@@ -29,7 +29,7 @@ display: none;
       .icon{
         width: 40px;
          height: 38px;
-          background: url(../projectimg/cres1.jpg);
+          background-color: blue;
           margin: 0 0 0 18px
 
       }
@@ -139,12 +139,10 @@ header{
   position: sticky;
   top: 0px;
     margin-top: -10px;
-    z-index: 89;
+    z-index: 9;
    padding: 20px;
     display: flex;
    justify-content: space-between;
-    z-index: 7;
-  
    grid-area: header;
    width: 97%;
  margin: auto;
@@ -171,12 +169,7 @@ background-size: 100% 100%;
         font-size: 35px;
         color:rgb(234, 234, 234) ;   
     }
-    .header_list{
-        list-style-type: none;
-        display: grid;
-        grid-auto-flow: column;
-        justify-items: center;
-}
+   
 
 }
 .main17{
@@ -342,14 +335,13 @@ width: 100%;
   overflow: hidden;
         grid-column: 3/5;
         h2{
-         font-size: 30px;
+        font-size: 30px;
         font-weight: bold;
-        font-family:  sans-serif;
+        font-family: sans-serif;
         text-align: center;
         margin-bottom: 30px;
         }
 .products_items{
-    grid-auto-rows: 1fr;
 display: grid;
 row-gap: 40px;
 column-gap: 60px;
@@ -358,14 +350,14 @@ grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
                   cursor: pointer;
                   opacity: 0;
                     display: grid;
-                    grid-template:auto 1fr minmax(10px,auto)/1fr;
+                    grid-template-rows:auto 1fr;
                     animation-fill-mode: forwards;
                     .products_img{
                         width: 100%;
                         height: 100%;
                     }      
                     .products_name{ 
-                        text-decoration: none;
+                            text-decoration: none;
                             margin: 0 0 10px 0;
                             text-align: center;
                             font-size: 20px;
@@ -373,8 +365,7 @@ grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
                             font-weight: bolder;
                     }
                     .products_button{
-                        justify-content: center;
-                        justify-self: center;
+                       justify-self: center;
                         letter-spacing: 1px;
                         text-align: center;
                         text-transform: uppercase;
@@ -400,7 +391,7 @@ grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
     .sidebar1{
         h1{
             font-weight: bold;
-        font-family:  sans-serif;
+            font-family:  sans-serif;
             display: block;
             margin: 10px 0 0 10px;
             font-size: 17px;

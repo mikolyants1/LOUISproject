@@ -9,7 +9,7 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
-  grid-template: minmax(100px, auto) 1fr minmax(100px, auto)/1fr;
+  grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
   grid-template-areas: "header" "main17" "main" "footer";
 }
 #wrapper .menu3 {
@@ -28,7 +28,7 @@ body {
 #wrapper .menu3 .icon {
   width: 40px;
   height: 38px;
-  background: url(../projectimg/cres1.jpg);
+  background-color: blue;
   margin: 0 0 0 18px;
 }
 #wrapper .menu3 .icon1 {
@@ -130,11 +130,10 @@ body {
   position: sticky;
   top: 0px;
   margin-top: -10px;
-  z-index: 89;
+  z-index: 9;
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  z-index: 7;
   grid-area: header;
   width: 97%;
   margin: auto;
@@ -159,12 +158,6 @@ body {
   text-align: center;
   font-size: 35px;
   color: rgb(234, 234, 234);
-}
-#wrapper header .header_list {
-  list-style-type: none;
-  display: grid;
-  grid-auto-flow: column;
-  justify-items: center;
 }
 #wrapper .main17 {
   display: none;
@@ -330,7 +323,6 @@ body {
   margin-bottom: 30px;
 }
 #wrapper main .content_products1 .products_items {
-  grid-auto-rows: 1fr;
   display: grid;
   row-gap: 40px;
   -moz-column-gap: 60px;
@@ -341,7 +333,7 @@ body {
   cursor: pointer;
   opacity: 0;
   display: grid;
-  grid-template: auto 1fr minmax(10px, auto)/1fr;
+  grid-template-rows: auto 1fr;
   animation-fill-mode: forwards;
 }
 #wrapper main .content_products1 .products_items .products_item .products_img {
@@ -357,7 +349,6 @@ body {
   font-weight: bolder;
 }
 #wrapper main .content_products1 .products_items .products_item .products_button {
-  justify-content: center;
   justify-self: center;
   letter-spacing: 1px;
   text-align: center;

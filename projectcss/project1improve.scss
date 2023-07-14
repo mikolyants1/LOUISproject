@@ -9,7 +9,7 @@ body{
   min-height: 100%;
   min-width: 100%;
   background-color: rgb(250, 250, 250);
-  grid-template: minmax(100px,auto) 1fr minmax(100px,auto)/ 1fr;
+  grid-template-rows: minmax(100px,auto) 1fr minmax(100px,auto);
   grid-template-areas: 
   'header'
   'main17'
@@ -148,7 +148,6 @@ body{
           }
   
           header{    
-            z-index: 89;
            padding: 20px;
             display: flex;
            justify-content: space-between;
@@ -182,12 +181,7 @@ body{
          }
   
   
-  .header_list{  
-      list-style-type: none;
-      display: grid;
-      grid-auto-flow: column;
-      justify-items: center;
-  } 
+  
   } 
   @keyframes show {
     from{
