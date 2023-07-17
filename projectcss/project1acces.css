@@ -10,7 +10,8 @@ body {
   min-height: 100%;
   min-width: 100%;
   background-color: rgb(234, 234, 234);
-  grid-template-areas: "header" "main17" "main" "footer";
+  grid-template-rows: minmax(100px, auto) 1fr minmax(80px, auto);
+  grid-template-areas: "header" "main" "footer";
 }
 #wrapper .menu3 {
   display: none;
@@ -162,7 +163,6 @@ body {
 }
 #wrapper .main17 {
   display: none;
-  margin-bottom: -90px;
   margin-top: -30px;
 }
 #wrapper .main17 .main1 {
@@ -358,7 +358,6 @@ body {
   line-height: 36px;
 }
 #wrapper footer {
-  height: 80px;
   color: rgb(234, 234, 234);
   background-color: black;
   grid-area: footer;

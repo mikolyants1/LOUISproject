@@ -8,10 +8,9 @@ body{
         position: relative;
 height: 100%;
 width: 100%;
-grid-template-rows: minmax(100px,auto) 1fr minmax(100px,auto);
+grid-template-rows: minmax(100px,auto) 1fr minmax(80px,auto);
 grid-template-areas: 
 'header'
-'main17'
 'main'
 'footer';
 .menu3{  
@@ -174,7 +173,6 @@ background-size: 100% 100%;
 }
 .main17{
     display: none;
-    margin-bottom: -100px;
     .main1{
         float: left;
       width: 50%;   height: 600px;
@@ -419,7 +417,6 @@ grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
    
     footer{
       padding: 10px;
-        height: 80px;
         color: rgb(234, 234, 234);
         background-color: black;
         grid-area: footer;
